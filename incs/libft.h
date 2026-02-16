@@ -6,7 +6,7 @@
 /*   By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 07:04:37 by alusnia           #+#    #+#             */
-/*   Updated: 2026/02/16 11:56:20 by alusnia          ###   ########.fr       */
+/*   Updated: 2026/02/16 17:55:48 by alusnia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ int		ft_isprint(int c);
 int		ft_isspace(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
+int		ft_isupper(int c);
+int		ft_islower(int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_atoi(const char *nptr);
