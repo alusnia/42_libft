@@ -6,7 +6,7 @@
 #    By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/05 17:53:29 by alusnia           #+#    #+#              #
-#    Updated: 2026/02/16 12:03:52 by alusnia          ###   ########.fr        #
+#    Updated: 2026/02/16 18:12:02 by alusnia          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,8 +18,8 @@ CFLAGS = -g -Wall -Werror -Wextra -I$(INCS_DIR)
 
 SRCS_DIR	= ./srcs
 
-SRCS = ft_substr.c ft_putnbr_fd.c ft_isdigit.c ft_atoi.c ft_isalpha.c \
-        ft_memmove.c ft_isprint.c ft_memchr.c ft_striteri.c ft_putendl_fd.c \
+SRCS = ft_substr.c ft_putnbr_fd.c ft_isdigit.c ft_atoi.c ft_isalpha.c ft_islower.c \
+        ft_isupper.c ft_memmove.c ft_isprint.c ft_memchr.c ft_striteri.c ft_putendl_fd.c \
         ft_strmapi.c ft_strrchr.c ft_toupper.c ft_memset.c ft_itoa.c \
         ft_isalnum.c ft_strtrim.c ft_putchar_fd.c ft_putstr_fd.c ft_strjoin.c \
         ft_strlcat.c ft_strdup.c ft_memcmp.c ft_memcpy.c ft_bzero.c ft_tolower.c \
