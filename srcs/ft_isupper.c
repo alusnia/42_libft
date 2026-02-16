@@ -6,13 +6,13 @@
 /*   By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 17:50:50 by alusnia           #+#    #+#             */
-/*   Updated: 2026/02/16 17:54:05 by alusnia          ###   ########.fr       */
+/*   Updated: 2026/02/16 18:15:04 by alusnia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isupper(char c)
+int	ft_isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (256);

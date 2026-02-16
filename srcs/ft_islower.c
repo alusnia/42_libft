@@ -6,13 +6,13 @@
 /*   By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 17:35:15 by alusnia           #+#    #+#             */
-/*   Updated: 2026/02/16 17:54:07 by alusnia          ###   ########.fr       */
+/*   Updated: 2026/02/16 18:15:06 by alusnia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_islower(char c)
+int	ft_islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (512);
