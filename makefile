@@ -6,7 +6,7 @@
 #    By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/05 17:53:29 by alusnia           #+#    #+#              #
-#    Updated: 2026/02/16 18:12:02 by alusnia          ###   ########.fr        #
+#    Updated: 2026/02/26 21:35:21 by alusnia          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRCS = ft_substr.c ft_putnbr_fd.c ft_isdigit.c ft_atoi.c ft_isalpha.c ft_islower
         ft_strchr.c ft_strncmp.c ft_strnstr.c ft_strlcpy.c ft_strlen.c \
         ft_calloc.c ft_isascii.c ft_split.c ft_putptr_fd.c ft_puthex_fd.c ft_putunbr_fd.c \
 		ft_putflt_fd.c ft_isspace.c ft_atod.c ft_putdbl_fd.c ft_atol.c ft_matrixlen.c \
-		ft_matrixjoin.c ft_matrixclear.c
+		ft_matrixjoin.c ft_matrixclear.c ft_aisll.c
 
 BONUS_SRCS =  ft_lstsize.c ft_lstnew.c ft_lstlast.c ft_lstdelone.c ft_lstclear.c \
 		ft_lstadd_front.c ft_lstadd_back.c ft_lstiter.c ft_lstmap.c
