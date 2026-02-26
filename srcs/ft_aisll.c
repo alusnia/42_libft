@@ -6,7 +6,7 @@
 /*   By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/26 21:30:34 by alusnia           #+#    #+#             */
-/*   Updated: 2026/02/26 21:37:47 by alusnia          ###   ########.fr       */
+/*   Updated: 2026/02/26 21:42:04 by alusnia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	ft_aisll(const char *nptr, long long *n)
 		else
 			break ;
 	}
-	if (nptr)
-		return (*n = 0, -1);
-	return (*n = x * sign, 0);
+	if (nptr[i])
+		return (*n = 0, 0);
+	return (*n = x * sign, 1);
 }
