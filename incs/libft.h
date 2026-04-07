@@ -6,7 +6,7 @@
 /*   By: alusnia <alusnia@student.42Warsaw.pl>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 07:04:37 by alusnia           #+#    #+#             */
-/*   Updated: 2026/02/26 21:30:15 by alusnia          ###   ########.fr       */
+/*   Updated: 2026/04/07 10:16:52 by alusnia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,9 @@ int		ft_isupper(int c);
 int		ft_islower(int c);
 int		ft_aisll(const char *nptr, long long *n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strisless(const char *left, const char *right);
+int		ft_strisequal(const char *left, const char *right);
+int		ft_strismore(const char *left, const char *right);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_atoi(const char *nptr);
 int		ft_putchar_fd(char c, int fd);
